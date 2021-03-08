@@ -557,7 +557,7 @@
     position: relative;
     margin-bottom: 10px;
 }
-
+    
 .form-label {
     margin-bottom: 4px;
     color: var(--main-text);
@@ -615,6 +615,10 @@
     outline: none;
 }
 
+.textarea-field {
+    margin-bottom: 20px;
+} 
+
 .form-textarea {
     padding: 12px 16px;
     resize: none;
@@ -660,8 +664,11 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.checkbox-label:hover {
+    cursor: pointer;
 }
 
 .checkbox-text {
